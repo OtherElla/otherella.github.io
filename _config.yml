@@ -1,2 +1,6 @@
 title: Ella's Site
 description: Bookmark this to keep an eye on my project updates!
+scripts:
+  predeploy: npm run build
+  start: npm run start
+  deploy: gh-pages -d build
